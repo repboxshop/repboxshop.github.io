@@ -1,0 +1,40 @@
+{
+  "_from": "icbc-icon-font",
+  "_id": "icbc-icon-font@2.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wW089cnvLqKo2HGOlVCobtTzOzs/IsxkhhkceQYg73I9R2j2xt1BpZMRsf1bcPujQuEIBt8hevmP/qtTxYJEeg==",
+  "_location": "/icbc-icon-font",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "icbc-icon-font",
+    "name": "icbc-icon-font",
+    "escapedName": "icbc-icon-font",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://nexus.ci.ardp.local/repository/icbc-npm/icbc-icon-font/-/icbc-icon-font-2.8.0.tgz",
+  "_shasum": "861d11a0e2f638d5c51ce8d169941fe6502c0499",
+  "_spec": "icbc-icon-font",
+  "_where": "P:\\gitlab\\singlespa\\core-dependencies\\npm-dependencies",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Installing icbc-icon-fonts in your proyect ```bash npm i icbc-icon-font --save ```",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "icbc-icon-font",
+  "publishConfig": {
+    "registry": "http://nexus.ci.ardp.local/repository/icbc-repo-npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.8.0"
+}

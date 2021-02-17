@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'gustan';
+  src: url("./gustanlp-medium.eot");
+  src: url("./gustanlp-medium.eot?#iefix") format("embedded-opentype"), url("./gustanlp-medium.woff2") format("woff2"), url("./gustanlp-medium.woff") format("woff"), url("./gustanlpmedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'gustan';
+  src: url("./gustanlp-bold.eot");
+  src: url("./gustanlp-bold.eot?#iefix") format("embedded-opentype"), url("./gustanlp-bold.woff2") format("woff2"), url("./gustanlp-bold.woff") format("woff"), url("./gustanlpbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }

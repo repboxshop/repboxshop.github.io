@@ -1,0 +1,71 @@
+$FontPathOpenSans: "../node_modules/open-sans-font/fonts" !default;
+
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-weight: 300;
+//   font-style: normal;
+//   src: url('#{$FontPathOpenSans}/Light/OpenSans-Light.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-weight: 300;
+//   font-style: italic;
+//   src: url('#{$FontPathOpenSans}/LightItalic/OpenSans-LightItalic.ttf') format('truetype');
+// }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('#{$FontPathOpenSans}/Regular/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: italic;
+  src: url('#{$FontPathOpenSans}/Italic/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('#{$FontPathOpenSans}/Semibold/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
+  src: url('#{$FontPathOpenSans}/SemiboldItalic/OpenSans-SemiboldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('#{$FontPathOpenSans}/Bold/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: italic;
+  src: url('#{$FontPathOpenSans}/BoldItalic/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-weight: 800;
+//   font-style: normal;
+//   src: url('#{$FontPathOpenSans}/ExtraBold/OpenSans-ExtraBold.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-weight: 800;
+//   font-style: italic;
+//   src: url('#{$FontPathOpenSans}/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+// }

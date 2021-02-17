@@ -1,0 +1,2 @@
+single-spa-angular
+Apache-2.0

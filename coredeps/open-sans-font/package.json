@@ -1,0 +1,40 @@
+{
+  "_from": "open-sans-font",
+  "_id": "open-sans-font@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-wZ5Iy+1zBoh6obdv0WGeaH8lN2nYNelUaCsdEx/j8ggOCT/du8mTaM9kVn5jLMVPvJX61tchgHCnOdqphFQGxA==",
+  "_location": "/open-sans-font",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "open-sans-font",
+    "name": "open-sans-font",
+    "escapedName": "open-sans-font",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://nexus.ci.ardp.local/repository/icbc-npm/open-sans-font/-/open-sans-font-1.0.2.tgz",
+  "_shasum": "fa35d41692f28b809b1d16800cea9fdef1921a72",
+  "_spec": "open-sans-font",
+  "_where": "P:\\gitlab\\singlespa\\core-dependencies\\npm-dependencies",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Installing open-sans-font in your proyect ```bash npm i icbc-font --save ```",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "open-sans-font",
+  "publishConfig": {
+    "registry": "http://nexus.ci.ardp.local/repository/icbc-repo-npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

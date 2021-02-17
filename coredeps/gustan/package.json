@@ -1,0 +1,40 @@
+{
+  "_from": "gustan@^1.1.4",
+  "_id": "gustan@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha512-j02SGFmDEqodYcVp0hH8GgCeg3piu/SxQfDgBrzL0qj9TRbiAXTU7NoDQW2vuvg0gvplOsW/Gg496ad4l+q90Q==",
+  "_location": "/gustan",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "gustan@^1.1.4",
+    "name": "gustan",
+    "escapedName": "gustan",
+    "rawSpec": "^1.1.4",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://nexus.ci.ardp.local/repository/icbc-npm/gustan/-/gustan-1.1.5.tgz",
+  "_shasum": "122b7a25b51f6e80210db4967423428168438ee3",
+  "_spec": "gustan@^1.1.4",
+  "_where": "P:\\gitlab\\singlespa\\core-dependencies\\npm-dependencies",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "```bash\r npm i gustan --save\r ```",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "gustan",
+  "publishConfig": {
+    "registry": "http://nexus.ci.ardp.local/repository/icbc-repo-npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.5"
+}

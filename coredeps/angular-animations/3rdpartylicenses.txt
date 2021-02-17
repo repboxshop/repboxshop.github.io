@@ -1,0 +1,2 @@
+@angular/animations
+MIT

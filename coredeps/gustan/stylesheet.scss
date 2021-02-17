@@ -1,0 +1,199 @@
+$gustan-path: '../node_modules/gustan'!default;
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-thin.eot');
+    src: url('#{$gustan-path}/gustanlp-thin.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-thin.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-thin.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpthin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-thinitalic.eot');
+    src: url('#{$gustan-path}/gustanlp-thinitalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-thinitalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-thinitalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-light.eot');
+    src: url('#{$gustan-path}/gustanlp-light.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-light.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-light.woff') format('woff'),
+    url('#{$gustan-path}/gustanlplight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-lightitalic.eot');
+    src: url('#{$gustan-path}/gustanlp-lightitalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-lightitalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-lightitalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlplightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-book.eot');
+    src: url('#{$gustan-path}/gustanlp-book.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-book.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-book.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpbook.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-bookitalic.eot');
+    src: url('#{$gustan-path}/gustanlp-bookitalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-bookitalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-bookitalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpbookitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-medium.eot');
+    src: url('#{$gustan-path}/gustanlp-medium.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-medium.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-medium.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-mediumitalic.eot');
+    src: url('#{$gustan-path}/gustanlp-mediumitalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-mediumitalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-mediumitalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpmediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-bold.eot');
+    src: url('#{$gustan-path}/gustanlp-bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-bold.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-bold.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-bolditalic.eot');
+    src: url('#{$gustan-path}/gustanlp-bolditalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-bolditalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-bolditalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-extrabold.eot');
+    src: url('#{$gustan-path}/gustanlp-extrabold.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-extrabold.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-extrabold.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-extrabolditalic.eot');
+    src: url('#{$gustan-path}/gustanlp-extrabolditalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-extrabolditalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-extrabolditalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-black.eot');
+    src: url('#{$gustan-path}/gustanlp-black.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-black.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-black.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-blackitalic.eot');
+    src: url('#{$gustan-path}/gustanlp-blackitalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-blackitalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-blackitalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-extrablack.eot');
+    src: url('#{$gustan-path}/gustanlp-extrablack.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-extrablack.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-extrablack.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpextrablack.ttf') format('truetype');
+    font-weight: 1000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gustan';
+    src: url('#{$gustan-path}/gustanlp-extrablackitalic.eot');
+    src: url('#{$gustan-path}/gustanlp-extrablackitalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$gustan-path}/gustanlp-extrablackitalic.woff2') format('woff2'),
+    url('#{$gustan-path}/gustanlp-extrablackitalic.woff') format('woff'),
+    url('#{$gustan-path}/gustanlpextrablackitalic.ttf') format('truetype');
+    font-weight: 1000;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
