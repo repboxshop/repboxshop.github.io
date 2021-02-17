@@ -1,6 +1,6 @@
 {
   "imports": {
-    "shared": "http://localhost:1234/index.js",
+    "shared": "/shared/index.js",
     "@angular/animations": "/coredeps/angular-animations/angular_animations.js",
     "@angular/animations/browser": "/coredeps/angular-animations-browser/angular_animations_browser.js",
     "@angular/common": "/coredeps/angular-common/angular_common.js",
