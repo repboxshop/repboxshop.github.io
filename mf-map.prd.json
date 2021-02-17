@@ -1,0 +1,8 @@
+{
+    "imports": {
+      "@mbc/root-config": "/mbc-root-config.js",
+      "@mbc/general-mf": "/general-mf/main.js",
+      "@mbc/tasks-mf": "/tasks-mf/main.js",
+      "@mbc/authentication-mf": "/authentication-mf/main.js"
+    }
+  }

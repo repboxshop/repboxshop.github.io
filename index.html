@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RepBox</title>
-</head>
-<body>
-    <h1>RepBox</h1>
-</body>
-</html>
+<!doctype html><html lang="en"><head><link rel="stylesheet" href="/coredeps/icbc-icon-font/style.css"><link rel="stylesheet" href="/coredeps/open-sans-font/styles.css"><link rel="stylesheet" href="/coredeps/gustan/stylesheet.ttf.css"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Root Config</title><meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';"><meta name="importmap-type" content="systemjs-importmap"/><link rel="preload" href="/coredeps/single-spa/single-spa.min.js" as="script"><script type="systemjs-importmap" src="/core-map-prd.json"></script><script type="systemjs-importmap" src="/mf-map-prd.json"></script><script src="/coredeps/zonejs/zone.min.js"></script><script src="/coredeps/systemjs/system.min.js"></script><script src="/coredeps/systemjs/extras/amd.min.js"></script></head><style>#single-spa-loader-app {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    line-height: 100vh;
+    display: none;
+  }
+
+  ;</style><body><div id="single-spa-loader-app"><p>LOADING</p></div><div id="login"><br><br><br><br><br><br><br><br><br><br><label for="">User</label> <input><br><br><label for="">Pass</label> <input type="password"><br><br><button onclick="login()">Ingresar</button></div><main></main><script>document.getElementById("single-spa-loader-app").style.display = "block";
+    System.import('@mbc/root-config');</script><script>function login() {
+      document.getElementById("login").style.display = "none";
+      window.location.href = "#/tasks-mf"
+    }</script></body></html>
