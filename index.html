@@ -1,4 +1,44 @@
-<!doctype html><html lang="en"><head><link rel="stylesheet" href="/coredeps/icbc-icon-font/style.css"><link rel="stylesheet" href="/coredeps/open-sans-font/styles.css"><link rel="stylesheet" href="/coredeps/gustan/stylesheet.ttf.css"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Root Config</title><meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';"><meta name="importmap-type" content="systemjs-importmap"/><link rel="preload" href="/coredeps/single-spa/single-spa.min.js" as="script"><script type="systemjs-importmap" src="/core-map.prd.json"></script><script type="systemjs-importmap" src="/mf-map.prd.json"></script><script src="/coredeps/zonejs/zone.min.js"></script><script src="/coredeps/systemjs/system.min.js"></script><script src="/coredeps/systemjs/extras/amd.min.js"></script></head><style>#single-spa-loader-app {
+<!doctype html><html lang="en"><head><link rel="stylesheet" href="/coredeps/icbc-icon-font/style.css"><link rel="stylesheet" href="/coredeps/open-sans-font/styles.css"><link rel="stylesheet" href="/coredeps/gustan/stylesheet.ttf.css"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Root Config</title><meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';"><meta name="importmap-type" content="systemjs-importmap"/>
+<link rel="preload" href="/coredeps/single-spa/single-spa.min.js" as="script">
+<link rel="preload" href="/shared/index.js" as="script" />
+<link rel="preload" href="/coredeps/angular-animations/angular_animations.js" as="script" />
+<link rel="preload" href="/coredeps/angular-animations-browser/angular_animations_browser.js" as="script" />
+<link rel="preload" href="/coredeps/angular-common/angular_common.js" as="script" />
+<link rel="preload" href="/coredeps/angular-common-http/angular_common_http.js" as="script" />
+<link rel="preload" href="/coredeps/angular-core/angular_core.js" as="script" />
+<link rel="preload" href="/coredeps/angular-forms/angular_forms.js" as="script" />
+<link rel="preload" href="/coredeps/angular-platform-browser/angular_platform-browser.js" as="script" />
+<link rel="preload" href="/coredeps/angular-browser-animations/angular_browser_animations.js" as="script" />
+<link rel="preload" href="/coredeps/angular-router/angular_router.js" as="script" />
+<link rel="preload" href="/coredeps/single-spa-angular/single-spa-angular.js" as="script" />
+<link rel="preload" href="/coredeps/rxjs/es2015/rxjs.min.js" as="script" />
+<link rel="preload" href="/coredeps/rxjs/es2015/rxjs-operators.min.js" as="script" />
+<link rel="preload" href="/coredeps/single-spa/single-spa.min.js" as="script" />
+<link rel="preload" href="/coredeps/tslib/tslib.js" as="script" />
+<link rel="preload" href="/coredeps/systemjs/system.min.js" as="script" />
+<link rel="preload" href="/coredeps/systemjs/extras/amd.min.js" as="script" />
+<link rel="preload" href="/coredeps/import-map-overrides/import-map-overrides.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk/agular_cdk.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-a11y/angular_cdk_a11y.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-bidi/angular_cdk_bidi.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-observers/angular_cdk_observers.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-platform/angular_cdk_platform.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-accordion/angular_cdk_accordion.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-coercion/angular_cdk_coercion.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-collections/angular_cdk_collections.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-drag-drop/angular_cdk_drag_drop.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-keycodes/angular_cdk_keycodes.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-layout/angular_cdk_layout.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-overlay/angular_cdk_overlay.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-portal/angular_cdk_portal.js" as="script" />
+<link rel="preload" href="/coredeps/angular-cdk-scrolling/angular_cdk_scrolling.js" as="script" />
+<link rel="preload" href="/coredeps/ngx-lucy/ngx_lucy.js" as="script" />
+<link rel="preload" href="/mbc-root-config.js" as="script" />
+<link rel="preload" href="/general-mf/main.js" as="script" />
+<link rel="preload" href="/tasks-mf/main.js" as="script" />
+<link rel="preload" href="/authentication-mf/main.js" as="script" />
+
+<script type="systemjs-importmap" src="/core-map.prd.json"></script><script type="systemjs-importmap" src="/mf-map.prd.json"></script><script src="/coredeps/zonejs/zone.min.js"></script><script src="/coredeps/systemjs/system.min.js"></script><script src="/coredeps/systemjs/extras/amd.min.js"></script></head><style>#single-spa-loader-app {
     background-color: rgba(255, 255, 255, 0.5);
     position: fixed;
     top: 0;
